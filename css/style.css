@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    background: url(../img/toshkent5.jpg) center / cover no-repeat;
+    height: 700px;
+}
+
+.header {
+    padding-top: 294px;
+    margin-left: 402px;
+    padding-bottom: 274;
+}
+
+.header p {
+    font-size: 50px;
+}
+
+.header h1 {
+    font-size: 70px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    margin-top: 88px;
+
+}
+
+.text {
+    margin-top: 123px;
+    margin-left: 29px;
+
+}
+
+.text button {
+    width: 168;
+    height: 42px;
+    background-color: #f1f1f1;
+    border: none;
+    margin-top: 7px;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.text a {
+    color: #70869d;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    padding: 17px 62px 14px 48px;
+}
+
+.text a:hover {
+    background-color: #0091b5;
+    color: #bfe3ec;
+}
+
+.main {
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+
+.right {
+    margin-left: 37px;
+}
+
+.content {
+    max-width: 1150px;
+    width: 100%;
+    margin: auto;
+    height: 553px;
+    background-color: #f3f9ff;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-top: 101px;
+    display: flex;
+
+}
+
+.fruit h3 {
+    font-size: 16px;
+    padding-left: 5px;
+    color: #1f3750;
+    font-weight: bold;
+    line-height: 19px;
+    word-spacing: 5px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+
+.demo {
+    display: none;
+    /* width: 160px; */
+}
+
+.click.active .demo {
+    display: block;
+}
+
+.fruit__click{
+    color: #1f3750;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 27px;
+    margin-bottom: 50px;
+    
+}
+
+.fruit img {
+    border: 1px solid #d9d9d9;
+    margin: 0;
+}
+.fruit__text {
+   width: 176px;
+   margin-top: 31px;
+   color: #70869d;
+   font-size: 16px;
+   font-weight: lighter;
+}
+.fruit__link {
+    padding-left: 87px;
+}
+.text__link {
+  font-size: 20px;
+color: #1f3750;
+display: flex;
+justify-content: center;
+font-weight: 400;
+font-family: "Roboto";
+margin-top: 48px;
+}
+.text__left {
+    width: 468px;
+}
+.text__left h1 a {
+    font-size: 20px;
+line-height: 30px;
+color: #70869d;
+font-weight: 400;
+font-family: "Roboto";
+text-decoration: none;
+}
+.text__right h1 a {
+    font-size: 20px;
+line-height: 30px;
+color: #70869d;
+font-weight: 400;
+font-family: "Roboto";
+text-decoration: none;
+padding-left: 120px;
+}
+.text__left a:hover {
+color: #2da5c3;
+}
+.footer {
+    display: flex;
+    max-width: 1150px;
+    width: 100%;
+    margin: auto;
+    margin-top: 74px;
+}
+ol{
+    list-style-type: none;
+}
+ /* .end {
+     background: #f3f9ff;
+     display: flex;
+     height: 96px;
+ }
+.section{ 
+font-size: 20px;
+
+color: #444444;
+font-weight: 700;
+font-family: "Roboto";
+padding: 403px;
+}
+.div {
+    display: flex;
+}
+.div  li a {
+    font-size: 14px;
+
+color: #6d6d6d;
+font-weight: 400;
+font-family: "Roboto";
+text-decoration: none;
+}
+.contact {
+    padding: 37px 405px 57px 40px;
+}
+.content {
+    padding-top: 37px;
+    padding-left: 40px;
+}
+.div  li {
+    list-style-type: none;
+} */
+.end {
+    margin: 135px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #f3f9ff
+}
+
+
+.section {
+    padding-left: 410px;
+    font-size: 20px;
+    color: #444444;
+    line-height: 1.5;
+    font-weight: 700;
+   
+}
+
+.end ul {
+    display: flex;
+}
+
+.end li {
+    list-style: none;
+}
+
+.end a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #6d6d6d;
+    line-height: 2.143;
+    margin: 0 15px 0;
+}
